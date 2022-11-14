@@ -49,7 +49,7 @@ fetch('response_image.json')
 
             const p = document.createElement('p');
             
-            p.textContent = photo.name_chi_fullname
+            p.textContent = `*** ${photo.name_chi_fullname} **`;
 
             const circle = document.createElement('img');
             
