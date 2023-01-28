@@ -1,7 +1,13 @@
 # 4S_image_showroom_frontend_JSON_CI-CD
 CI-CD demo
 
-local develop : source cod IDE only, local webserver (does not run in docker)
+It's a demo for API request by fetch (javascript)
+
+env:
+local develop : source code IDE only, local webserver (does not run in docker)
+
+deployment:
 CI-CD: github action
-development server
+
+development server (not now)
 e.g. Heroku, DigitOcean, AWS, Azure etc.
